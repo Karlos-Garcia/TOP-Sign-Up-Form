@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Norse'; /* Choose a unique name for your font */
+    src: url('Norse-Bold.otf') format('opentype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial;
+}
+
+.leaf {
+    height: 100vh;
+}
+
+.icon {
+    height: 20vh;
+}
+
+.logo {
+    position: absolute;
+    bottom: 60vh;
+    left: 0;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Norse';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.logo-text {
+    font-size: 15vh;
+}
+
+.heading-container {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+button {
+    margin-bottom: 24px;
+}
+
+.left-container {
+    position: relative;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.05);
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    background-color: white;
+}
+
+.create-account-container {
+    padding: 32px;
+}
+
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-item-container {
+    display: flex;
+    margin-top: 20px;
+    gap: 64px;
+}
+
+.create-account {
+    background-color: #596D48;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border-radius: 8px;
+    border-style: unset;
+    font-weight: bold;
+}
+
+input {
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    box-shadow: none;
+    border-radius: 2px;
+    border-color: #E5E7EB;
+}
+
+input:valid {
+    outline: none;
+}
+
+input:invalid {
+    outline: none;
+    border-width: 1px;
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border-width: 1px;
+    border-color: blue;
+    box-shadow: 3px 3px 5px lightgrey;
+}
